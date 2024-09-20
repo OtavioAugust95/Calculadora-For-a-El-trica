@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Elétrica Cisco</title>
+</head>
+<body>
+    <div id="phiscy">
+        <div>
+            <label>Número de Elétrons(n):</label>
+            <input type="number" id="n1">
+            <br>
+            <br>
+            <label>Carga Elementar(e) 1,6 * 10 ^ -19</label>
+            <br>
+            <br>
+            <button onclick="calcularq1()">Calcular a Carga Elétrica 1(q1)</button>
+            <div class="resultado1" id="result1">Valor da Carga 1(q1):</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <label>Número de Elétrons(n):</label>
+            <input type="number" id="n2">
+            <br>
+            <br>
+            <label>Carga Elementar(e) 1,6 * 10 ^ -19</label>
+            <button onclick="calcularq2()">Calcular a Carga Elétrica 2(Q2)</button>
+            <br>
+            <br>
+            <div class="resultado2" id="result2">Valor da Carga 2(Q2):</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <label>Valor da Carga Elétrica 1(q1):</label>
+            <input type="number" id="q1">
+            <br>
+            <br>
+            <label>Valor da Carga Elértica 2(Q2):</label>
+            <input type="number" id="Q2">
+            <br>
+            <br>
+            <label>Valor da Distância(r):</label>
+            <input type="number" id="r">
+            <br>
+            <br>
+            <label>Constante Elétrica(K) 9 * 10 ^ 9</label>
+            <br>
+            <br>
+            <button onclick="calcularF()">Calcular a Força(F)</button>
+            <div class="resultado3" id="result3">Valor da Força Elértica(F):</div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
